@@ -11,4 +11,5 @@ export class NewHilightDirective implements OnInit{
     this.renderer.setStyle(this.elementref.nativeElement,'background-color', 'blue')
   }
 
+  
 }
