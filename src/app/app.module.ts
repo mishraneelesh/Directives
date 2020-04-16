@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BGHighlight } from './basic-highlight/basic-highlight.directive';
 import { NewHilightDirective } from './new-highlight/new-hilight.directive';
+import { UnlessDirective } from './unless.directive';
 
 @NgModule({
   declarations: [
     AppComponent,
     BGHighlight,
     NewHilightDirective,
+    UnlessDirective,
   ],
   imports: [
     BrowserModule,
